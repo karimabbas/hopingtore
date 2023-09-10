@@ -224,7 +224,6 @@ namespace ShopingStore.Controllers
             _myDBContext.SaveChanges();
             return RedirectToAction("Index", "Home");
 
-
         }
 
     }
